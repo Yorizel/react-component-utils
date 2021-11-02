@@ -4,7 +4,7 @@ import { Template } from './Template'
 interface ForProps {
     array: any[]
 }
-export const ForContext = createContext({} as any)
+const ForContext = createContext({} as any)
 export const For: React.FC<ForProps> = ({ array, children }) => {
     return (
         <Template>

@@ -6,3 +6,4 @@ interface IfProps {
 export const If: React.FC<IfProps> = ({ condition, children }) => {
     return <Template>{condition && children}</Template>
 }
+
