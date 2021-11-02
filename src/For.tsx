@@ -16,6 +16,4 @@ export const For: React.FC<ForProps> = ({ array, children }) => {
         </Template>
     )
 }
-// <For array={simpleArray}>
-//     {(values: typeof arrayType) => <span>{values.test}</span>}
-// </For>
+
