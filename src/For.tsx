@@ -4,7 +4,7 @@ import { Template } from './Template'
 interface ForProps {
     array: any[]
 }
-export const ForContext = createContext({} as any)
+const ForContext = createContext({} as any)
 export const For: React.FC<ForProps> = ({ array, children }) => {
     return (
         <Template>
@@ -16,6 +16,4 @@ export const For: React.FC<ForProps> = ({ array, children }) => {
         </Template>
     )
 }
-// <For array={simpleArray}>
-//     {(values: typeof arrayType) => <span>{values.test}</span>}
-// </For>
+
